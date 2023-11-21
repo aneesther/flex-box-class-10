@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin: 3px;
+    /* padding: 5px; */
+    width: 100%;
+    height: 630px;
+    gap: 10px;
+}
+.header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    display: flex;
+    width: 100%;
+    height: 360px;
+    /* background-color: azure; */
+    gap: 10px;
+}
+.sidebar {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+.other {
+    display: flex;
+    flex-direction: column;
+    width: 70% ;
+    height: 100%;
+    gap: 10px;
+}
+.content1 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.other1 {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    gap: 10px;
+}
+
+.content2, .content3 {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+
+.colored-box {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-color: brown;
+    gap: 5px;
+}
+.box-A {
+    display: flex;
+    flex-direction: column;
+    width:40% ;
+    height: 100%;
+    gap: 5px;
+}
+.sack {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    gap: 8px;
+}
+.equal {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 40%;
+    gap: 8px;
+}
+
+.purple {
+    display: flex;
+    background-color: purple;
+    width: 100%;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    display: flex;
+    background-color: darkgreen;
+    width: 100%;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+}
+
+.lemongreen {
+    display: flex;
+    background-color: forestgreen;
+    width: 100%;
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.hotpink {
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+    height: 66%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sack1 {
+    display: flex;
+    width: 100%;
+    height: 33%;
+    gap: 8px;
+}
+#six {
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: darkgreen;
+    justify-content: center;
+    align-items: center;
+}
+
+#nine {
+    display: flex;
+    height: 100%;
+    width: 60%;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-11 {
+    display: flex;
+    width: 100%;
+    height:20% ;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslateblue;
+}
+
+.not {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    gap: 8px;
+}
+
+.box-B {
+    display: flex;
+    width:40% ;
+    height: 100%;
+    gap: 5px;
+    background-color: peachpuff;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.box-C {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    gap: 5px;
+}
+#four-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    background-color: yellow;
+}
+
+#six-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    background-color: mediumblue;
+}
+
+#ten {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#twelve {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+    background-color: red;
+}
+
+
+.flex-box {
+    display: flex;
+    width: 100%;
+    height: 650px;
+    gap: 15px;
+    background-color: darkgreen;
+    padding: 8px;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    gap: 8px;
+}
+
+.small {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: lightgreen;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px;
+}
+.seto {
+    display: flex;
+    flex-direction: column;
+    height:70% ;
+    width: 100%;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 8px;
+    gap: 10px;
+}
+#da {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(8, 8, 192);
+    justify-content: center;
+    border-radius: 5px;
+}
+.seta {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    gap: 10px;
+}
+#db {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(8, 8, 192);
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+#dc {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(8, 8, 192);
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    gap: 8px;
+}
+.small-sec{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    background-color: lightgreen;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#c-box {
+    display: flex;
+    width: 30%;
+    height: 100%;
+    background-color: lightgreen;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.sete {
+    display: flex;
+    flex-direction: column;
+    height:70% ;
+    width: 100%;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 8px;
+    gap: 10px;
+}
+
+.seti {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    gap: 10px;
+}
+
+#ea {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(8, 8, 192);
+    justify-content: center;
+    border-radius: 5px;
+
+}
+#eb {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(8, 8, 192);
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+#ec {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(8, 8, 192);
+    justify-content: center;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
